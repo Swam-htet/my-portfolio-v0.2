@@ -1,19 +1,19 @@
-import Intro from "@/app/components/Intro";
-import Gallery from "@/app/components/Gallery";
-import SocialList from "@/app/components/SocialList";
+import About from "@/app/components/page/About";
+import Project from "@/app/components/page/Project";
+import Home from "@/app/components/page/Home";
 
-export default function Home() {
+export default function Main() {
     return (
         <main className={'min-h-screen'}>
-            <div className={'container mx-auto px-20 py-5 lg:px-60'}>
-                <Intro/>
-
-                <Gallery/>
-
-                <SocialList/>
-
+            <div id={'home'}>
+                <Home/>
             </div>
-
+            <div id={'about'}>
+                <About/>
+            </div>
+            <div id={'project'}>
+                <Project/>
+            </div>
         </main>
     )
 }

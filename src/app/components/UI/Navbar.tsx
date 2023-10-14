@@ -10,12 +10,12 @@ export default function Navbar() {
                     </Link>
                 </li>
                 <li className={'hover:underline hover:text-gray-600'}>
-                    <Link href={'/about'}>
+                    <Link href={'#about'}>
                         About
                     </Link>
                 </li>
                 <li className={'hover:underline hover:text-gray-600'}>
-                    <Link href={'/projects'}>
+                    <Link href={'#project'}>
                         Projects
                     </Link>
                 </li>

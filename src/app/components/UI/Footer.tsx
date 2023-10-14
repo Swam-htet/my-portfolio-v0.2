@@ -14,12 +14,12 @@ export default function Footer() {
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about" className="mr-4 hover:underline">
+                        <Link href="#about" className="mr-4 hover:underline">
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link href="/projects" className="mr-4 hover:underline">
+                        <Link href="#project" className="mr-4 hover:underline">
                             Projects
                         </Link>
                     </li>

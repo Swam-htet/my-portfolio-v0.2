@@ -1,7 +1,7 @@
 export default function Timeline() {
     return (
-        <>
-            <h2 className={'text-2xl mb-5'}>My Education Background</h2>
+        <div className={'my-20'}>
+            <h2 className={'text-2xl mb-5'}>Education Background - </h2>
 
             <ol className="relative border-l border-gray-200">
                 <li className="mb-10 ml-4">
@@ -49,5 +49,5 @@ export default function Timeline() {
             </ol>
 
 
-        </>)
+        </div>)
 }
