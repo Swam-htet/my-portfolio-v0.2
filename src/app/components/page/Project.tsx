@@ -11,11 +11,11 @@ export interface ProjectModel {
 
 export default function Project() {
     return (
-        <main>
+        <div className={'bg-zinc-200 shadow-xl rounded-xl p-10 mt-10'}>
 
             <ProjectList/>
 
             <SocialList/>
-        </main>
+        </div>
     )
 }

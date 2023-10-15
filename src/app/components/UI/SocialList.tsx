@@ -32,12 +32,12 @@ export default function SocialList() {
         },
     ];
     return (
-        <div className={'my-20'}>
-            <h2 className={'text-2xl mb-5'}>Contact - </h2>
-            <div className={'flex flex-row gap-10 content-center'}>
+        <div className={'my-5'}>
+            <h2 className={'text-2xl text-black'}>Contact - </h2>
+            <div className={'flex flex-row mt-2 gap-10 content-center'}>
                 {
                     list.map((item, index) => {
-                        return (<div key={index} className={'mt-3 hover:text-gray-400'}>
+                        return (<div key={index} className={'mt-3 text-black hover:text-slate-950'}>
                             <Link href={item.link}>
                                 <FontAwesomeIcon icon={item.type} className={'w-5'}/>
                             </Link>

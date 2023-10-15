@@ -3,12 +3,12 @@ import Skill from "@/app/components/UI/Skill";
 
 export default function About() {
     return (
-        <main>
+        <div className={'bg-zinc-200 shadow-xl rounded-xl p-10 mt-10'}>
 
             <Timeline/>
 
             <Skill/>
             
-        </main>
+        </div>
     )
 }

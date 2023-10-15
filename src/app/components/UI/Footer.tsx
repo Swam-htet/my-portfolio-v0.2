@@ -4,10 +4,10 @@ export default function Footer() {
     return (
         <footer className="bg-white shadow-2xl m-4 rounded-2xl">
             <div className="container mx-auto p-7 flex justify-between">
-                <span className="text-sm pt-3 text-gray-500">
+                <span className="text-sm pt-3 text-black">
                     © 2023 by Alphar.
                 </span>
-                <ul className="flex gap-2 md:gap-5 items-center mt-3 text-sm text-gray-500">
+                <ul className="flex gap-2 md:gap-5 items-center mt-3 text-sm text-black">
                     <li>
                         <Link href="/" className="mr-4 hover:underline">
                             Home

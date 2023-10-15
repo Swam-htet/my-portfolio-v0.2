@@ -37,7 +37,7 @@ let list = [
 export default function Skill() {
     return (
         <div className={'my-20'}>
-            <h2 className={"text-2xl mb-5"}>Language -  </h2>
+            <h2 className={"text-2xl mb-5 text-black"}>Language -  </h2>
 
             <div className={"grid grid-cols-4 md:grid-cols-6"}>
                 {list.map((item, index) => (
@@ -46,8 +46,8 @@ export default function Skill() {
                         className={
                             "p-5"
                         }>
-                        <h1 className={"mb-2"}>{item.name}</h1>
-                        <span className={''}>
+                        <h1 className={"mb-2 text-black"}>{item.name}</h1>
+                        <span className={'text-black'}>
                             <FontAwesomeIcon icon={item.type} className={"w-10"}/>
                         </span>
                     </div>

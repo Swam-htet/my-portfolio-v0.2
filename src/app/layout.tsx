@@ -3,6 +3,7 @@ import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import Navbar from "@/app/components/UI/Navbar";
 import Footer from "@/app/components/UI/Footer";
+import React from "react";
 
 const inter = Inter({subsets: ['latin']})
 
@@ -18,9 +19,9 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body className={"bg-white"}>
+        <body>
         <Navbar/>
-        <div className={'container mx-auto px-20 py-5 lg:px-60'}>
+        <div className={'container mx-auto px-5 py-5 lg:px-40'}>
             {children}
         </div>
         <Footer/>
