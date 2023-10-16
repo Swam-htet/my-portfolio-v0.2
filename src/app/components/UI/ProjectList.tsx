@@ -44,7 +44,7 @@ export default function ProjectList() {
         
     ];
     return (<div>
-        <h1 className={'text-2xl mt-5 text-black mb-5'}>Projects - </h1>
+        <h1 className={'text-2xl text-black mb-5'}>Projects - </h1>
         <div className={'grid grid-cols-1 xl:grid-cols-2 gap-5'}>
             {list.map((project, index) => <ProjectBox key={index} project={project}/>)}
         </div>

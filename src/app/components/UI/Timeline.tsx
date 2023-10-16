@@ -1,6 +1,6 @@
 export default function Timeline() {
     return (
-        <div className={'my-10'}>
+        <div className={'md:my-10'}>
             <h2 className={'text-2xl mb-5 text-black'}>Education Background - </h2>
 
             <ol className="relative border-l border-black">

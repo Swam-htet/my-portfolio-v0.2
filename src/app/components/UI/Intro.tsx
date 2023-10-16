@@ -4,7 +4,7 @@ import {faDownload} from "@fortawesome/free-solid-svg-icons";
 
 export default function Intro() {
     return (
-        <div className={'p-10'}>
+        <div>
             {/* eslint-disable-next-line react/no-unescaped-entities */}
             <h2 className={'text-2xl mb-5 text-black'}>Hi, I'm Swam Htet</h2>
             <p className={'text-base  indent-16 text-black'}>

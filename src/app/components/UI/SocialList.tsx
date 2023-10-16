@@ -34,7 +34,7 @@ export default function SocialList() {
     ];
     return (
         <div className={'my-5'}>
-            <div className={'flex gap-5'}>
+            <div className={'flex gap-3 md:gap-5'}>
                 {
                     list.map((item, index) => {
                         return (<div key={index} className={'mt-8 text-black hover:text-slate-950'}>
@@ -53,17 +53,3 @@ export default function SocialList() {
     )
 }
 
-/*
-
-                <div className={'mt-3 text-black hover:text-slate-950'}>
-                    <Link href={""}>
-                        <FontAwesomeIcon icon={faPhone} className={'w-5'}/>
-                    </Link>
-                </div>
-
-                <div>
-                    <p>
-                        Address -
-                    </p>
-                </div>
- */
