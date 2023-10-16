@@ -19,6 +19,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
+
         <body>
         <Navbar/>
         <div className={'container mx-auto px-5 py-5 lg:px-40'}>
